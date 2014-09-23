@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{3FF2D39D-E5C3-8FC5-4E39-456BCDF5E7C2}</ProjectGuid>
+	<ProjectGuid>{318460F3-A1D6-2DCF-4AF7-F8247A02C30E}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -51,11 +51,12 @@
      <Compile Include="Assets\Scripts\LabelScript.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
      <Compile Include="Assets\Scripts\PlayerPrefsX.cs" />
+     <Compile Include="Assets\Scripts\QuitGame.cs" />
+     <Compile Include="Assets\Scripts\RateButton.cs" />
      <Compile Include="Assets\Scripts\RestartMenu.cs" />
      <Compile Include="Assets\Scripts\ScoreUpdater.cs" />
      <Compile Include="Assets\Scripts\ScrollCloud.cs" />
      <Compile Include="Assets\Scripts\StartMenu.cs" />
-     <Compile Include="Assets\Textures\QuitGame.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -17,6 +17,7 @@ public class StartMenu : MonoBehaviour {
 	{
 		if(Input.GetKeyDown(KeyCode.Escape))
 		{
+			Handheld.Vibrate();
 			Application.Quit();
 		}
 	}
@@ -38,6 +39,7 @@ public class StartMenu : MonoBehaviour {
 		{
 			// On Click, load the first level.
 			// "Stage1" is the name of the first scene we created.
+			Handheld.Vibrate();
 			Application.LoadLevel("Scene1");
 		}
 	}

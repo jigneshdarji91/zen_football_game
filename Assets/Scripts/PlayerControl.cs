@@ -36,6 +36,7 @@ public class PlayerControl : MonoBehaviour {
 		}
 		if(Input.GetKeyDown(KeyCode.Escape))
 		{
+			ScoreUpdater.ResetScore();
 			Application.LoadLevel("StartMenu");
 		}
 	}
@@ -93,6 +94,8 @@ public class PlayerControl : MonoBehaviour {
 	{
 		Debug.Log("GameOver");
 		ScoreUpdater.ResetScore ();
+		Handheld.Vibrate();
+		Handheld.Vibrate();
 		Application.LoadLevel("RestartMenu");
 	}
 
